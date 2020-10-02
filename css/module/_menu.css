@@ -1,0 +1,14 @@
+.menu {
+    transform: rotate(-90deg);
+    position: fixed;
+    z-index: 10;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
