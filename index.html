@@ -1,82 +1,202 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
     <head>
-        <meta charset="utf-8">
-        <title>KUHNEL Axel / Web Developpement</title>
-        <link rel="stylesheet" href="css/app.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/835da4a40a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/app.css">
     </head>
 
-</html>
+    <body>
+        <div class="container">
 
-<body>
-    
-    <div class="outer-wrapper">
-        
-        <div class="wrapper">
-            
-            <div class="slide s1 slide-one home" id="home">
-                
-                <div class="leftPart">
-                    <ul class="social">
-                        <li><i class="fab fa-instagram fa-lg"></i></li>
-                        <li><i class="fab fa-twitter fa-lg"></i></li>
-                        <li><i class="fab fa-linkedin-in fa-lg"></i></li>
+            <!-- Header / left menu -->
+            <div class="header">
+                    <ul>
+                        <li>
+                            <a href="#about-card">
+                                <i class="far fa-user"></i>
+                                <span class="link">A PROPOS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#work-card">
+                                <i class="far fa-images"></i>
+                                <span class="link">PORTFOLIO</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#resume-card">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span class="link">PARCOUR</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact-card">
+                                <i class="fas fa-file-signature"></i>
+                                <span class="link">CONTACT</span>
+                            </a>
+                        </li>
                     </ul>
-                    <div class="about">
-                        <div class="baseline baseline-1">AXEL KUHNEL</div>
-                        <div class="baseline baseline-2">Développeur et intégrateur web<br>Freelance.</div>
-                    </div>
-                    <ul class="arrow">
-                        <li><i class="fas fa-chevron-left fa-3x"></i></li>
-                        <li><a href="#about"><i class="fas fa-chevron-right fa-3x"></i></a></li>
-                    </ul>
-                </div>
-                
-                <div class="rightPart"></div>
-                
             </div>
-            
-            <div class="slide s2 slide-two about" id="about">
 
-                <div class="left">
+            <!-- Main Card / fixed / profile -->
+            <div class="main-card" id="home-card">
 
+                <!-- profile-->
+                <div class="profile photo">
+
+                    <!-- profile picture -->
+                    <div class="picture" style="background: url();"></div>
+
+                    <!-- title and subtitle -->
+                    <div class="title">Axel Kuhnel</div>
+
+                    <div class="subtitle subtitle-typed">
+                        <div class="typing-title">
+                            <p>Web Développeur</p>
+                            <p>Freelance</p>
+                        </div>
+                    </div>
+
+                    <!-- social media -->
+                    <div class="social">
+                        <a href=""><i class="fab fa-github"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <!-- resume and hire link-->
+                    <div class="hire">
+                        <a href="" class="lnk link-cv">
+                            <span class="text">MON CV</span>
+                        </a>
+                        <a href="" class="lnk link-hire">
+                            <span class="text">ME CONTACTER</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- card about -->
+            <div class="card-inner about-card" id="about-card">
+                <div class="card-wrap">
+
+                    <!-- about -->
+                    <div class="content about">
+                        <!-- title -->
+                        <div class="title">Informations</div>
+
+                        <!-- content -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-box">
+                                    <p>
+                                        Je suis Axel Kuhnel développeur et intégrateur web en région Parisienne. Je débute dans ce domaine et j'aurais
+                                         grand plaisir à travailler avec vous sur vos projets. Vous pouvez retrouver mes différentes plateforme de prestations avec le lien "Me Contacter" 
+                                         sous ma photo de profil.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="info-tab">
+                                    <ul>
+                                        <li><span class="text">Age</span><span class="info">21</span></li>
+                                        <li><span class="text">Résidence</span><span class="info">Paris, France</span></li>
+                                        <li><span class="text">Statut</span><span class="info">Disponible</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <!-- services -->
+                    <div class="content service">
+
+                        <div class="title">Services</div>
+
+                        <!-- content -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="icon"><i class="fas fa-code"></i></div>
+                                <div class="name">Web Développement</div>
+                                <div class="desc">
+                                    <div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus, ipsum nec luctus elementum, risus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="icon"><i class="fas fa-layer-group"></i></div>
+                                <div class="name">Intégration Web</div>
+                                <div class="desc">
+                                    <div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus, ipsum nec luctus elementum, risus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="icon"><i class="fas fa-cogs"></i></div>
+                                <div class="name">Webmaster</div>
+                                <div class="desc">
+                                    <div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus, ipsum nec luctus elementum, risus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                <div class="content skills">
                     
-                    <div class="picture top">
-                        <img src="assets/me.JPG">
-                    </div>
+                    <div class="title">Compétences</div>
 
-                    <div class="information bot">
-                        <ul>
-                            <li>axelkuhnel94@gmail.com</li>
-                            <li>Limeil-Brévannes, France</li>
-                            <li>06.59.21.54.84</li>
-                        </ul>
+                    <div class="row">
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fab fa-vuejs"></i>
+                            </div>
+                        </div>
                     </div>
-                   
-
-                    <ul class="arrow">
-                        <li><a href="#home"><i class="fas fa-chevron-left fa-3x"></i></a></li>
-                        <li><a href="#projet"><i class="fas fa-chevron-right fa-3x"></i></a></li>
-                    </ul>
+                    <div class="clear"></div>
                 </div>
 
-                <div class="right">
-                    <div class="top"></div>
-                    <div class="bot"></div>
+                <div class="content quote">
+
+                    <div class="title">Citations</div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus, ipsum nec luctus elementum, risus.
+                                </p>
+                            </div>
+                            <div class="author">
+                                <p>Mr.Unknown</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="slide slide-three projet" id="projet">
-            </div>
-            
-            <div class="slide slide-four experience" id="exp">
-            </div>
-            
-            <div class="slide slide-five contact" id="contact">
             </div>
         </div>
-    </div>
+    </body>
 
-</body>
+</html>

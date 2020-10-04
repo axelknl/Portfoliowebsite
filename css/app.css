@@ -3,9 +3,5 @@
 @import "layout/_grid.css";
 
 @import "module/_menu.css";
-@import "module/_arrow.css";
-@import "module/_slideOne.css";
-@import "module/_slideTwo.css";
-@import "module/_slideThree.css";
-@import "module/_slideFour.css";
-@import "module/_slideFive.css";
+@import "module/_profile.css";
+@import "module/_about.css";

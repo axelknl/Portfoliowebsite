@@ -1,39 +1,32 @@
-.slide {
-    width: 100vw;
-    height: 100vh;
-}
 
-.wrapper {
+body {
+    background-color: bisque;
+    padding: 20px 30px;
     display: flex;
     flex-direction: row;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-    width: 500vw;
+    justify-content: space-around;
 }
 
-.outer-wrapper {
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-x: hidden;
-    overflow-y: scroll;
+.container {
+    margin: 0;
     position: absolute;
-    -ms-overflow-style: none;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    max-width: 1350px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
 }
 
-::-webkit-scrollbar{
-    display: none;
+.card-inner {
+    background-color: white;
 }
 
-.slide-three {
-    background-color: beige;
-}
-
-.slide-four {
-    background-color: aquamarine;
-}
-
-.slide-five {
-    background-color: antiquewhite;
+@media (max-width: 1416px){
+    .container {
+        max-width: 1150px;
+    }
 }

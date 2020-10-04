@@ -1,14 +1,17 @@
-.menu {
-    transform: rotate(-90deg);
-    position: fixed;
-    z-index: 10;
+.header {
+    background-color: white;
 }
 
-.menu li {
-    display: inline;
+.header .menu {
+    background-color: green;
 }
 
-.menu ul{
-    margin: 0;
-    padding: 0;
+.header ul{
+    background-color: yellow;
 }
+
+.header li a{
+    display: flex;
+    flex-direction: column;
+}
+
